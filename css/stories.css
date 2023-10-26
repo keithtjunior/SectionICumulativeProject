@@ -1,0 +1,99 @@
+/* Lists of stories */
+
+.stories-list {
+  margin: 20px 5px;
+  color: grey;
+}
+
+.stories-list > li {
+  color: gray;
+  font-size: 0.9rem;
+  margin: 10px 0;
+  padding: 1rem .7rem;
+  border-bottom: .5px solid rgb(206, 206, 206);
+}
+
+#stories-loading-msg {
+  font-weight: bold;
+  font-size: 150%;
+  margin: 20px 30px;
+}
+
+
+/* Individual stories */
+
+.story-link {
+  color: black;
+  font-size: 0.85rem;
+  font-weight: normal;
+  margin: 18px 0;
+}
+
+.story-link:hover {
+  text-decoration: none;
+}
+
+.story-user {
+  display: block;
+}
+
+.story-list-item {
+  display: flex;
+  gap: 18px;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.story-list-item-center {
+  flex-grow: 2;
+}
+
+.story-list-item-center a {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.story-favorite {
+  margin-left: 18px;
+}
+
+.story-favorite span {
+  font-size: 3rem;
+}
+
+.story-author {
+  font-size: 12px;
+  color: green;
+  font-weight: bold;
+}
+
+.story-user {
+  font-size: 14px;
+  color: orange;
+  font-weight: bold;
+}
+
+.story-delete {
+  color: darkred;
+  margin-right: 18px;
+}
+
+.story-delete:hover {
+  font-weight: bolder;
+}
+
+.story-favorite, .story-delete {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+small {
+  display: block;
+  margin-bottom: .5rem;
+  font-size: 12px;
+}
+
+.story-hostname {
+  display: inline-block;
+}
