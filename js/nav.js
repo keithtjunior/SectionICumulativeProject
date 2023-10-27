@@ -28,6 +28,7 @@ $navLogin.on("click", navLoginClick);
 //!!!!!!!!!!!!!!!!!!!!ADD COMMENTS!!!!!!!!!!!!!!!!!!!!//
 
 function navSubmitClick(evt) {
+  if(!currentUser) return;
   console.debug("navSubmitClick", evt);
   hidePageComponents();
   $submitForm.show();
