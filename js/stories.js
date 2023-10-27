@@ -65,8 +65,10 @@ function putStoriesOnPage() {
 
 function putFavoriteStoriesOnPage() {
   if(!currentUser) return;
+  if(currentUser.favorites.length === 0) return;
 
   console.debug("putFavoriteStoriesOnPage");
+  hidePageComponents();
   $allStoriesList.empty();
 
   for (let story of storyList.stories) {
